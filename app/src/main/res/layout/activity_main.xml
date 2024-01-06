@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="30sp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="\t\t\tClass Test 1 MarkList:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="30sp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="Sr.No\t\t\tName\t\t\t\t\t\t\t\t\tMarks"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 1.\t\t\t\t\t\t ABC\t\t\t\t\t\t\t\t\t\t\t 10/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 2.\t\t\t\t\t\t XYZ\t\t\t\t\t\t\t\t\t\t\t 9/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 3.\t\t\t\t\t\t Tom\t\t\t\t\t\t\t\t\t\t\t 10/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 4.\t\t\t\t\t\t Steve\t\t\t\t\t\t\t\t\t 7.5/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 5.\t\t\t\t\t\t Tony\t\t\t\t\t\t\t\t\t\t 8/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 6.\t\t\t\t\t\t Brian\t\t\t\t\t\t\t\t\t\t 8/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 7.\t\t\t\t\t\t PQR\t\t\t\t\t\t\t\t\t\t\t 8/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 8.\t\t\t\t\t\t Andrew\t\t\t\t\t\t\t 8/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 9.\t\t\t\t\t\t Karansinh\t\t\t\t10/10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:text="\t\t 10.\t\t\t\t\tUtkrushta\t\t\t\t\t8/10" />
+</LinearLayout>
